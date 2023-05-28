@@ -1,4 +1,5 @@
-/usr/local/etc/php/conf.d/
+cd /usr/local/etc/php/conf.d/
+apt-get update & apt-get install nano
 nano wordpress.ini
 file_uploads = On
 memory_limit = 256M
